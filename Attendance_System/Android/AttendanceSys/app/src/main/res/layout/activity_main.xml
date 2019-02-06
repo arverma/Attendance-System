@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff9bb"
+    android:orientation="vertical"
+    tools:context="in.ac.iiitmanipur.attendancesys.MainActivity"
+    tools:ignore="InvalidId">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/Prof_section">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/colorGeneral"
+        >
+<!--
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pro_pic"
+            android:contentDescription="Pro_pic" /> -->
+
+        <com.zuowei.circleimageview.CircleImageView
+            android:id="@+id/image_view"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:scaleType="centerInside"
+            android:layout_height="match_parent"
+            android:src="@drawable/pro_pic"
+            android:contentDescription="Pro_pic"
+            />
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_weight="1.5"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:paddingLeft="30dp">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="@string/Username"
+            android:textColor="@color/colorText"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emailid"
+            android:textColor="@color/colorText"
+            android:textSize="14sp"/>
+         <Button
+             android:id="@+id/g_signout"
+             android:layout_gravity="center"
+             android:layout_marginTop="5dp"
+             android:layout_width="wrap_content"
+             android:background="@drawable/rounded_corner"
+             android:layout_height="wrap_content"
+             android:text="@string/logout"
+             android:textColor="#FF5722" />
+         </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_marginBottom="0dp">
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_height="match_parent"
+                android:text="@string/ece"
+                android:textSize="20sp"
+                android:background="@color/colorBlack1"
+                tools:ignore="ButtonStyle" />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:textColor="@color/colorAccent"
+                android:layout_height="match_parent"
+                android:text="@string/cse"
+                android:background="@color/colorBlack1"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="0dp">
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:background="@drawable/rounded_corner"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorBlue"
+                    android:layout_height="match_parent"
+                    android:text="@string/Sem_2"
+                    tools:ignore="ButtonStyle"
+                    android:onClick="openSem1" />
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" ></View>
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorBlue"
+                    android:text="@string/Sem_2"
+                    android:onClick="openSem1"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginBottom="0dp">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:background="@drawable/rounded_corner"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlue"
+                android:layout_height="match_parent"
+                android:onClick="openSem1"
+                android:text="@string/Sem_4"
+                tools:ignore="ButtonStyle" />
+            <View
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" ></View>
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/Sem_4"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlue"
+                android:background="@drawable/rounded_corner"
+                android:onClick="openSem1"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:onClick="openSem1"
+            android:padding="5dp"
+            android:layout_marginBottom="0dp">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:onClick="openSem1"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_corner"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlue"
+                android:text="@string/Sem_6"
+                tools:ignore="ButtonStyle" />
+            <View
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" ></View>
+            <Button
+                android:layout_weight="1"
+                android:onClick="openSem1"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/colorBlue"
+                android:text="@string/Sem_6"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="0dp">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:onClick="openSem1"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlue"
+                android:background="@drawable/rounded_corner"
+                android:text="@string/Sem_8"
+                tools:ignore="ButtonStyle" />
+            <View
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" ></View>
+
+            <Button
+                android:layout_weight="1"
+                android:onClick="openSem1"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/colorBlue"
+                android:text="@string/Sem_8"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+        </LinearLayout>
+
+    <!-- android:background="@drawable/background" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignIn_sec"
+        android:gravity="center"
+        android:background="@drawable/background1"
+        android:scaleType = "centerCrop">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/g_login"
+            android:layout_width="match_parent"
+            android:padding="100dp"
+            android:layout_height="wrap_content">
+
+        </com.google.android.gms.common.SignInButton>
+    </LinearLayout>
+
+
+</LinearLayout>

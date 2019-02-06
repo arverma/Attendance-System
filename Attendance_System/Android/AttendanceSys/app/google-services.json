@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "150227442497",
+    "firebase_url": "https://attendance-sys-1520055292438.firebaseio.com",
+    "project_id": "attendance-sys-1520055292438",
+    "storage_bucket": "attendance-sys-1520055292438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150227442497:android:0f3a2995fbc62987",
+        "android_client_info": {
+          "package_name": "in.ac.iiitmanipur.attendancesys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150227442497-q9si0pub39s8fdl9k0tu6tv30s4hg6uv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "150227442497-2t39it23amresm2bdv4sjb16ulv6vj4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.iiitmanipur.attendancesys",
+            "certificate_hash": "b6584931fa3ce3f6165b5b13ca080846868dec58"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD3LFnBWpuzlhaiaFNDKSmMPokRX5pq4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150227442497-q9si0pub39s8fdl9k0tu6tv30s4hg6uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

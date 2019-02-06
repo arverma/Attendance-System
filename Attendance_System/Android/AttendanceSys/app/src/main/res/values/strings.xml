@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AS</string>
+    <string name="ece">ECE</string>
+    <string name="cse">CSE</string>
+    <string name="logout">LogOut</string>
+    <string name="Username">Prabhat Ranjan Verma</string>
+    <string name="emailid">abc@gmail.com</string>
+    <string name="Sem_2">Sem 2</string>
+    <string name="Sem_4">Sem 4</string>
+    <string name="Sem_6">Sem 6</string>
+    <string name="Sem_8">Sem 8</string>
+    <string name="hellow">Hii! it\'s done.</string>
+</resources>
